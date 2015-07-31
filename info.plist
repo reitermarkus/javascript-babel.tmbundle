@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>eninfguv@znp.pbz</string>
+	<key>contactName</key>
+	<string>Richa Avasthi</string>
+	<key>description</key>
+	<string>JavaScript language definition for TextMate and SublimeText2.</string>
+	<key>name</key>
+	<string>JavaScriptNext</string>
+	<key>uuid</key>
+	<string>92124E51-F501-42B6-9471-33047D536DB0</string>
+</dict>
+</plist>
