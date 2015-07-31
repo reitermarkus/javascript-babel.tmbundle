@@ -337,7 +337,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.json</string>
+	<string>source.json.babel</string>
 	<key>uuid</key>
 	<string>68e2a375-bdf1-4fd4-bbe4-481849a7a5ae</string>
 </dict>

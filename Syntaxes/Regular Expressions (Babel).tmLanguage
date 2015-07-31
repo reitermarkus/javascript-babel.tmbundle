@@ -300,7 +300,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.js.regexp</string>
+	<string>source.js.regexp.babel</string>
 	<key>uuid</key>
 	<string>4141bf2f-6bb2-4ee0-a07e-3443efbd0b62</string>
 </dict>
