@@ -9,7 +9,7 @@
 		<string>jsx</string>
 	</array>
 	<key>firstLineMatch</key>
-	<string>^#!\s*/.*\b(node|js)$\n?</string>
+	<string>^#!\s*\/.*\b(node|js)$\n?</string>
 	<key>keyEquivalent</key>
 	<string>^~J</string>
 	<key>name</key>
@@ -3366,7 +3366,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.js</string>
+	<string>source.js.babel</string>
 	<key>uuid</key>
 	<string>30c49d33-6e4d-4985-8a18-34431c2535c6</string>
 </dict>
