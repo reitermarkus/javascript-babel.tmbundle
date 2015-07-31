@@ -11,7 +11,7 @@
 	<key>foldingStopMarker</key>
 	<string>(\*/|\}|\))</string>
 	<key>name</key>
-	<string>Regular Expressions (Javascript Next)</string>
+	<string>Regular Expressions (Babel)</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -302,6 +302,6 @@
 	<key>scopeName</key>
 	<string>source.regexp.js</string>
 	<key>uuid</key>
-	<string>6D74161E-E1A2-4AF3-922D-759E88DEFF63</string>
+	<string>4141bf2f-6bb2-4ee0-a07e-3443efbd0b62</string>
 </dict>
 </plist>
