@@ -4,6 +4,8 @@
 <dict>
 	<key>name</key>
 	<string>Monokai Phoenix</string>
+	<key>semanticClass</key>
+	<string>theme.dark.monokai-phoenix</string>
 	<key>settings</key>
 	<array>
 		<dict>
