@@ -8,14 +8,31 @@
 	<string>source.js</string>
 	<key>settings</key>
 	<dict>
-		<key>bracketIndentNextLinePattern</key>
-		<string>(?x)
-  ^ \s* \b(if|while|else)\b [^;]* $
-  | ^ \s* \b(for)\b .* $</string>
 		<key>decreaseIndentPattern</key>
-		<string>^(.*\*/)?\s*[}].*$</string>
+		<string>(?x)
+      ^(.*\*/)?\s*[}]   .* $
+    | ^ \s* ]}*        \s* $
+    | ^ \s* &lt;/.*       \s* $
+    | ^ \s* /?&gt;        \s* $
+    | ^ \s* \);?       \s* $
+    </string>
 		<key>increaseIndentPattern</key>
-		<string>^.*\{[^}"']*$</string>
+		<string>(?x)
+    # open curly brace without closing curly brace or (double)quotes 
+      ^  .*  \{[^}"']*     $
+    # opening bracket
+    | ^  .*  \(         \s* $
+    # opening jsx-tags
+    | ^ \s* &lt;\w.+[^/]&gt;  \s* $
+    | ^ \s* &lt;\w.*       \s* $
+    | ^ \s* &gt;           \s* $
+    </string>
+		<key>indentNextLinePattern</key>
+		<string>(?x)
+    # indent next line for if, while, else, for if no block was started
+      ^ \s* \b(if|while|else)\b [^;]* $
+    | ^ \s* \b(for)\b              .* $
+    </string>
 	</dict>
 	<key>uuid</key>
 	<string>d408c7f9-4402-4a22-98f9-156c144591b7</string>
