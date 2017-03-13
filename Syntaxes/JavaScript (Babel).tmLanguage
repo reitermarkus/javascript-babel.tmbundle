@@ -166,58 +166,58 @@
 		<key>curly-brackets</key>
 		<dict>
 			<key>patterns</key>
-  		<array>
-  			<dict>
-  				<key>captures</key>
-  				<dict>
-  					<key>1</key>
-  					<dict>
-  						<key>name</key>
-  						<string>punctuation.section.scope.begin.js</string>
-  					</dict>
-  					<key>2</key>
-  					<dict>
-  						<key>name</key>
-  						<string>punctuation.section.scope.end.js</string>
-  					</dict>
-  				</dict>
-  				<key>comment</key>
-  				<string>Allows the special return snippet to fire.</string>
-  				<key>match</key>
-  				<string>(\{)(\})</string>
-  			</dict>
-  			<dict>
-  				<key>begin</key>
-  				<string>\{</string>
-  				<key>beginCaptures</key>
-  				<dict>
-  					<key>0</key>
-  					<dict>
-  						<key>name</key>
-  						<string>meta.brace.curly.js</string>
-  					</dict>
-  				</dict>
-  				<key>end</key>
-  				<string>\}</string>
-  				<key>endCaptures</key>
-  				<dict>
-  					<key>0</key>
-  					<dict>
-  						<key>name</key>
-  						<string>meta.brace.curly.js</string>
-  					</dict>
-  				</dict>
-  				<key>name</key>
-  				<string>meta.group.braces.curly</string>
-  				<key>patterns</key>
-  				<array>
-  					<dict>
-  						<key>include</key>
-  						<string>$self</string>
-  					</dict>
-  				</array>
-  			</dict>
-  		</array>
+			<array>
+				<dict>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.section.scope.begin.js</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.section.scope.end.js</string>
+						</dict>
+					</dict>
+					<key>comment</key>
+					<string>Allows the special return snippet to fire.</string>
+					<key>match</key>
+					<string>(\{)(\})</string>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>\{</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>meta.brace.curly.js</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>\}</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>meta.brace.curly.js</string>
+						</dict>
+					</dict>
+					<key>name</key>
+					<string>meta.group.braces.curly</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>$self</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
 		</dict>
 		<key>es7-class-properties</key>
 		<dict>
@@ -2799,7 +2799,7 @@
 					<array>
 						<dict>
 							<key>include</key>
-							<string>source.regexp.js</string>
+							<string>source.js.regexp.babel</string>
 						</dict>
 					</array>
 				</dict>
@@ -3051,58 +3051,58 @@
 		<key>round-brackets</key>
 		<dict>
 			<key>patterns</key>
-  		<array>
-  			<dict>
-  				<key>captures</key>
-  				<dict>
-  					<key>1</key>
-  					<dict>
-  						<key>name</key>
-  						<string>punctuation.section.scope.begin.js</string>
-  					</dict>
-  					<key>2</key>
-  					<dict>
-  						<key>name</key>
-  						<string>punctuation.section.scope.end.js</string>
-  					</dict>
-  				</dict>
-  				<key>comment</key>
-  				<string>Allows the special return snippet to fire.</string>
-  				<key>match</key>
-  				<string>(\()(\))</string>
-  			</dict>
-  			<dict>
-  				<key>begin</key>
-  				<string>\(</string>
-  				<key>beginCaptures</key>
-  				<dict>
-  					<key>0</key>
-  					<dict>
-  						<key>name</key>
-  						<string>meta.brace.round.js</string>
-  					</dict>
-  				</dict>
-  				<key>end</key>
-  				<string>\)</string>
-  				<key>endCaptures</key>
-  				<dict>
-  					<key>0</key>
-  					<dict>
-  						<key>name</key>
-  						<string>meta.brace.round.js</string>
-  					</dict>
-  				</dict>
-  				<key>name</key>
-  				<string>meta.group.braces.round</string>
-  				<key>patterns</key>
-  				<array>
-  					<dict>
-  						<key>include</key>
-  						<string>#expression</string>
-  					</dict>
-  				</array>
-  			</dict>
-  		</array>
+			<array>
+				<dict>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.section.scope.begin.js</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.section.scope.end.js</string>
+						</dict>
+					</dict>
+					<key>comment</key>
+					<string>Allows the special return snippet to fire.</string>
+					<key>match</key>
+					<string>(\()(\))</string>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>\(</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>meta.brace.round.js</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>\)</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>meta.brace.round.js</string>
+						</dict>
+					</dict>
+					<key>name</key>
+					<string>meta.group.braces.round</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#expression</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
 		</dict>
 		<key>special-comments-conditional-compilation</key>
 		<dict>
@@ -3183,58 +3183,58 @@
 		<key>square-brackets</key>
 		<dict>
 			<key>patterns</key>
-  		<array>
-  			<dict>
-  				<key>captures</key>
-  				<dict>
-  					<key>1</key>
-  					<dict>
-  						<key>name</key>
-  						<string>punctuation.section.scope.begin.js</string>
-  					</dict>
-  					<key>2</key>
-  					<dict>
-  						<key>name</key>
-  						<string>punctuation.section.scope.end.js</string>
-  					</dict>
-  				</dict>
-  				<key>comment</key>
-  				<string>Allows the special return snippet to fire.</string>
-  				<key>match</key>
-  				<string>(\[)(\])</string>
-  			</dict>
-  			<dict>
-  				<key>begin</key>
-  				<string>\[</string>
-  				<key>beginCaptures</key>
-  				<dict>
-  					<key>0</key>
-  					<dict>
-  						<key>name</key>
-  						<string>meta.brace.square.js</string>
-  					</dict>
-  				</dict>
-  				<key>end</key>
-  				<string>\]</string>
-  				<key>endCaptures</key>
-  				<dict>
-  					<key>0</key>
-  					<dict>
-  						<key>name</key>
-  						<string>meta.brace.square.js</string>
-  					</dict>
-  				</dict>
-  				<key>name</key>
-  				<string>meta.group.braces.square</string>
-  				<key>patterns</key>
-  				<array>
-  					<dict>
-  						<key>include</key>
-  						<string>#expression</string>
-  					</dict>
-  				</array>
-  			</dict>
-  		</array>
+			<array>
+				<dict>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.section.scope.begin.js</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.section.scope.end.js</string>
+						</dict>
+					</dict>
+					<key>comment</key>
+					<string>Allows the special return snippet to fire.</string>
+					<key>match</key>
+					<string>(\[)(\])</string>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>\[</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>meta.brace.square.js</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>\]</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>meta.brace.square.js</string>
+						</dict>
+					</dict>
+					<key>name</key>
+					<string>meta.group.braces.square</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#expression</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
 		</dict>
 		<key>string-content</key>
 		<dict>
