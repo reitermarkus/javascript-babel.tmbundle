@@ -130,6 +130,40 @@
 			<key>patterns</key>
 			<array>
 				<dict>
+					<key>begin</key>
+					<string>(?=\bimport\s+[_$a-zA-Z][$\w]*)</string>
+					<key>end</key>
+					<string>(?=\s+from\b)</string>
+					<key>name</key>
+					<string>meta.import.js</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#literal-module</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#literal-variable</string>
+						</dict>
+						<dict>
+							<key>begin</key>
+							<string>\{</string>
+							<key>end</key>
+							<string>(?=\})</string>
+							<key>name</key>
+							<string>meta.import.inside-curly.js</string>
+							<key>patterns</key>
+							<array>
+								<dict>
+									<key>include</key>
+									<string>#literal-variable</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+				</dict>
+				<dict>
 					<key>include</key>
 					<string>#literal-function-labels</string>
 				</dict>
